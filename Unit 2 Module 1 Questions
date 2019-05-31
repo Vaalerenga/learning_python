@@ -1,0 +1,25 @@
+# this one works but it isn't pretty
+word = ' '
+quote = input("Enter your favorite phrase: ") + " "
+for character in quote:
+    if character.isalpha():
+        word += character
+    elif character.isalpha() == False:
+        word >= "h"
+        print(word.upper())
+        word = " "
+        if word < 'h':
+            word = ' '
+            
+# this one doesn't work but it looks like it should work better.
+word = ' '
+quote = input("Enter your favorite phrase: ") + " "
+for character in quote:
+    if character.isalpha():
+        word += character
+        if word >= "h":
+            print(word.upper())
+            word = " "
+            if word < 'h':
+                word = ' '
+       
