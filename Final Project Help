@@ -16,9 +16,9 @@
 #Enter the name of an element: helium
 #Enter the name of an element: gold
 
-#80 % correct
-#Found: Argon Chlorine Sodium Helium 
-#Not Found: Gold 
+ #80 % correct
+ #Found: Argon Chlorine Sodium Helium 
+ #Not Found: Gold 
 
 #Create get_names() Function to collect input of 5 unique element names
 
